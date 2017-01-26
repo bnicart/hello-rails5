@@ -13,4 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require paloma
+//= require_directory ./pages
 //= require_tree .
+
+$(document).ready(function(){
+  Paloma.start();
+});
+$(document).on('turbolinks:load', function(){
+  Paloma.start();
+});

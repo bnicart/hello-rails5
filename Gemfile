@@ -16,6 +16,7 @@ gem 'turbolinks', '5.0.1'
 gem 'jbuilder', '2.5'
 gem 'bcrypt', '3.1.11'
 gem 'faker', '1.6.6'
+gem 'paloma'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
